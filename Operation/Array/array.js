@@ -24,13 +24,31 @@
 
 
 
-const myarray1=[1,2,5,6,7,8,2]
-console.log(myarray1);
+// const myarray1=[1,2,5,6,7,8,2]
+// console.log(myarray1);
 
 // const myarray2=myarray1.slice(1,5)
 // console.log("A " + myarray1);  //A 1,2,5,6,7,8,2   oringinal array not changed
 // console.log("Output "+myarray2);   //Output 2,5,6,7
 
-const myarray2=myarray1.splice(1,5)
-console.log("A " + myarray1);  //A 1,2  oringinal array was changed
-console.log("Output "+myarray2);  //Output 2,5,6,7,8
+// const myarray2=myarray1.splice(1,5)
+// console.log("A " + myarray1);  //A 1,2  oringinal array was changed
+// console.log("Output "+myarray2);  //Output 2,5,6,7,8
+
+
+const names=["ram","snjay","mohna"]
+const names1=["shyam","Radha","nakul"]
+
+// names.push(names1)
+
+// console.log(names);
+
+// const allnames =names.concat(names1)
+// console.log(allnames);
+
+const allname=[...names,...names1]
+console.log(allname);
+
+
+
+
