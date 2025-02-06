@@ -56,8 +56,8 @@
 // const Addsum=(num1,num2) =>  num1+num2
 // console.log(Addsum(3,5));
 
-const addtwo=function(num)
-{
-    return num+2;
-}
-addtwo(5)
+// const addtwo=function(num)
+// {
+//     return num+2;
+// }
+// addtwo(5)
